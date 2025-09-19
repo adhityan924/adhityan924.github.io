@@ -80,6 +80,22 @@
       <h2 class="experience__heading section-heading">Work Experience</h2>
 
       <div class="experience__content">
+        <div class="job-card job-card--knex">
+          <div class="job-card__logo">
+            <img src="./assets/knex.png" alt="Knex LLC" />
+          </div>
+          <div class="job-card__details">
+            <h3 class="job-card__company">Knex LLC (An Oracle Partner)</h3>
+            <p class="job-card__period">June 2025 – Aug 2025</p>
+            <h4 class="job-card__position">AI Product Engineering Intern</h4>
+            <p class="job-card__location">Mountain View, CA</p>
+            <ul class="job-card__responsibilities">
+              <li>Architected a production-ready LLM solution for lease abstraction with structured JSON output, automating complex data extraction and reducing manual entry by over 90%.</li>
+              <li>Engineered and deployed a low-latency RAG chatbot using FastAPI, achieving sub-200ms response times for semantic queries across a knowledge base of thousands of legal documents.</li>
+            </ul>
+          </div>
+        </div>
+
         <div class="job-card job-card--deutsche">
           <div class="job-card__logo">
             <img src="./assets/deutschebank.png" alt="Deutsche Bank" />
@@ -87,22 +103,18 @@
           <div class="job-card__details">
             <h3 class="job-card__company">Deutsche Bank</h3>
             <p class="job-card__period">Jul 2021 – Jul 2024</p>
-            <h4 class="job-card__position">Software Development Engineer II (Master Data Management Team)</h4>
+            <h4 class="job-card__position">Software Development Engineer II (Master Data Management)</h4>
             <p class="job-card__location">Bangalore, India</p>
             <ul class="job-card__responsibilities">
-              <li>Directed product strategy and development of a banking search service by architecting a Java/Spring Boot microservice that reduced user wait time by 70% and processed 2.4M records/hour.</li>
-              <li>Executed cross-functional migration initiative from monolithic to microservices architecture with OpenShift, driving 600% improvement in system scalability while ensuring stakeholder alignment.</li>
-              <li>Designed and implemented a workflow service for bank customer data processing 3K requests/day for 10K+ users, resulting in 45% faster customer onboarding and 30% reduction in data errors.</li>
-              <li>Introduced a data ingestion script to process 100K+ records/day into ElasticSearch using Logstash and Control-M, improving data searchability by 65% and reducing retrieval latency.</li>
-              <li>Guided and onboarded 5 new joiners by creating comprehensive documentation and conducting technical workshops, reducing ramp-up time by 40% and ensuring seamless team integration.</li>
-            </ul>
-            <h4 class="job-card__position">Software Development Engineer I (Compliance Team)</h4>
-            <p class="job-card__location">Bangalore, India</p>
-            <ul class="job-card__responsibilities">
-              <li>Engineered a Java-based microservice for real-time financial data aggregation handling 1K+ clients/day and 500+ requests/min using Spring Boot and React with 90% test coverage, improving data accuracy by 35%.</li>
-              <li>Slashed data retrieval times from 30 min to under 1 min by implementing Hazelcast in-memory caching for time-sensitive operations.</li>
-              <li>Coordinated the integration of 7 microservices with KAAS, processing 200K+ messages/day, enhancing system fault tolerance and reducing failure rates.</li>
-              <li>Optimized SQL queries and mutations for a system serving 6K+ users/day, improving response times by 40% and reducing payload size by 60%.</li>
+              <li>Architected a high-performance Java 8/Spring Boot 2.7 microservice that reduced user wait times by 70% (from 15s to 4.5s), scaling to process 24M records/hour with 99.999% uptime.</li>
+              <li>Spearheaded monolith-to-microservices migration on Kubernetes, leading 8 engineers to boost system scalability 600% to support 5M+ concurrent users.</li>
+              <li>Engineered an end-to-end orchestration service for 1.5M+ daily API requests to 2M users, slashing customer onboarding time by 45% and cutting data validation errors by 30%.</li>
+              <li>Built an ELK (ElasticSearch 7.x) ingestion pipeline for 17M+ daily records, boosting search performance by 65% and cutting query latency from 8s to 1.7s.</li>
+              <li>Mentored 5 junior engineers through technical documentation and TDD/BDD workshops, reducing onboarding time by 40% and increasing team code quality by 35%.</li>
+              <li>Built a fault-tolerant Spring Boot 2.5 microservice with React 17 handling 2K+ requests/minute, achieving 90% test coverage and improving data accuracy by 35%.</li>
+              <li>Optimized data retrieval performance by 96.7% (from 30 min to under 1 min) by implementing Hazelcast 5.x in-memory caching with intelligent data partitioning for time-sensitive trading operations.</li>
+              <li>Designed and integrated 7 microservices with Kafka 2.8 in a distributed architecture processing 7M+ daily messages, which reduced system failures by 65% (from 25 to 3 incidents/month).</li>
+              <li>Enhanced database performance for a system serving 2M+ users by refactoring Oracle 19c SQL queries and optimizing connection pooling, improving response times by 40%.</li>
             </ul>
           </div>
         </div>

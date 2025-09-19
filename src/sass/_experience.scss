@@ -60,6 +60,14 @@
   transition: transform 0.3s ease;
   border-left: 4px solid;
 
+  &--knex {
+    border-color: #0066CC;
+    
+    .job-card__logo {
+      background-color: #ffffff;
+    }
+  }
+
   &--deutsche {
     border-color: $color-blue;
     
